@@ -7,4 +7,7 @@ Change for `singlecommit` branch, with merge squashing option.
 
 Multiple commits. Hello Elijah.
 
-GPG with -S
+## Auto GPG
+1. `brew install gnupg`
+2. [Generate a GPG key](https://help.github.com/articles/generating-a-new-gpg-key/#generating-a-gpg-key)
+3. Add gitconfig user.signingkey and commit.gpgsign [link](https://stackoverflow.com/a/20628522/4096495)
