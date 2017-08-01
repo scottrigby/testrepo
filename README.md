@@ -7,4 +7,4 @@ Change for `singlecommit` branch, with merge squashing option.
 
 Multiple commits. Hello Elijah.
 
-GPG gitconfig [gpg] alias -S
+GPG gitconfig [gpg] alias -S new sess
