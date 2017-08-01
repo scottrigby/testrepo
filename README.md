@@ -7,4 +7,4 @@ Change for `singlecommit` branch, with merge squashing option.
 
 Multiple commits. Hello Elijah.
 
-GPG
+GPG -S
