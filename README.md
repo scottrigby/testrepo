@@ -8,3 +8,5 @@ Change for `singlecommit` branch, with merge squashing option.
 Multiple commits. Hello Elijah.
 
 Close with comment
+
+Test graphql pull reqeust state
