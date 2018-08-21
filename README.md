@@ -11,6 +11,6 @@ Close with comment
 
 Test graphql pull reqeust state
 
-Another line
+Another line.
 
 Testing pull request rebase comments
