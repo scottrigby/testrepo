@@ -11,4 +11,4 @@ Close with comment
 
 Test graphql pull reqeust state
 
-Another line
+Another line.
