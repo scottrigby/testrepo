@@ -8,3 +8,4 @@ Change for `singlecommit` branch, with merge squashing option.
 Multiple commits.
 
 Test for Pull Request / Status API
+
