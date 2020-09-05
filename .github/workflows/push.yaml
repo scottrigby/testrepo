@@ -14,8 +14,8 @@ jobs:
           ref: push-to
       - run: |
           cp -f ${{ runner.temp }}/README.md .
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add README.md
           git commit -m "README updated from main"
           git push
