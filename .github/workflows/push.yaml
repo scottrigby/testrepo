@@ -1,15 +1,21 @@
-on: push
+on:
+  push:
+    paths:
+      - 'README.md'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: |
-          date > generated.txt
-          date > discard.txt
+          cp README.md README-from-main.md
+      - uses: actions/checkout@v2
+        with:
+          ref: push-to
+      - run: |
+          mv README-from-main.md README.md
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add generated.txt
-          git commit -m "generated"
-          git checkout push-to
+          git add README.md
+          git commit -m "README updated from main"
           git push origin push-to
