@@ -8,14 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          cp README.md README-from-main.md
+          cp -f README.md ${{ runner.temp }}/README.md
       - uses: actions/checkout@v2
         with:
           ref: push-to
       - run: |
-          mv README-from-main.md README.md
+          cp -f ${{ runner.temp }}/README.md .
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add README.md
           git commit -m "README updated from main"
-          git push origin push-to
+          git push
