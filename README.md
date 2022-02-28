@@ -5,10 +5,7 @@ Change for 1.0.1 tag.
 
 Change for `singlecommit` branch, with merge squashing option.
 
-Multiple commits. Hello Elijah.
+Multiple commits.
 
-Close with comment
+Test for Pull Request / Status API
 
-Test graphql pull reqeust state
-
-Another line.
