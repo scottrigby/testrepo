@@ -14,3 +14,4 @@ Test graphql pull reqeust state
 Another line.
 
 Test commit message length
+for commit issue title truncation check
